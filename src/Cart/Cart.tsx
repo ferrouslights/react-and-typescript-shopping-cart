@@ -1,6 +1,6 @@
 import CartItem from "../CartItem/CartItem";
 // Styling
-import { Wrapper } from './Cart.styles'
+import { Wrapper } from "./Cart.styles";
 // Types
 import { CartItemType } from "../App";
 

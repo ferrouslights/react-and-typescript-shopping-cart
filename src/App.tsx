@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 
 // Components to use
 import Item from "./Item/Item";
-import Cart from './Cart/Cart';
+import Cart from "./Cart/Cart";
 import Drawer from '@material-ui/core/Drawer'
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Grid from '@material-ui/core/Grid';
@@ -89,7 +89,7 @@ const App = () => {
         <Badge badgeContent={getTotalItems(cartItems)} color='error'>
           <AddShoppingCartIcon />
         </Badge>
-        </StyledButton>
+      </StyledButton>
       <Grid container spacing={3}>
         {data?.map(item => (
           <Grid item key={item.id} xs={12} sm={3}>
