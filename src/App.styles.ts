@@ -12,12 +12,12 @@ export const StyledButton = styled(IconButton)`
     top: 20px;
     height: 60px;
     width: 60px;
-    background: #FEB95F;
+    background: #90D7FF;
     border-radius: 45px;
     transition: transform .4s;
 
     :hover {
-        background: #FECA85;
+        background: #C2E9FF;
         transform: scale(1.2, 1.2);
     }
 `;
