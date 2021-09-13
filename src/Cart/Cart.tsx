@@ -16,8 +16,15 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart}) => {
             <h2>Your Cart</h2>
             {cartItems.length === 0 ? <p>Add some!</p> : null}
             {cartItems.map(item => (
-                <CartItem />
+                <CartItem 
+                    key={item.id}
+                    item={item}
+                    addToCart={addToCart}
+                    removeFromCart={removeFromCart}
+                />
             ))}
         </Wrapper>
     )
 }
+
+export default Cart;
