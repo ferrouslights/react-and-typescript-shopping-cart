@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Uses Material UI for icons and grid, styled components for component styling, fake store api for store data, and typescript as the main file type. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
